@@ -1,0 +1,148 @@
+.card{
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+
+  width   : 120px;
+  height  : 120px;
+color:white;
+  background-color: rgba(43, 44, 44, 0);
+  font-size   : 3em;
+  font-weight : 100;
+  text-align  : center;
+  padding     : 20px;
+  border-bottom : 5px solid white;
+border-right: 5px solid white;
+}
+@font-face {
+  font-family:"Dodger";
+  src:url("dodger3.eot") format("eot"),
+  url("dodger3.woff") format("woff"),
+  url("dodger3.ttf") format("truetype"),
+  url("dodger3.svg#Dodger") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+body{
+  background-color: #101417;
+  
+}
+#imgc{
+ position: relative;
+ margin-right: 10px;
+ bottom: 25px;
+ border: none;
+}
+.App {
+  text-align: center;
+ 
+  
+
+}
+
+.App-logo {
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+.App-header {
+ 
+  background-image: url("http://www.pavementmarkingkalispell.com/wp-content/uploads/slider3.png");
+ background-size: contain;
+  display: flex;
+  color: black;
+  text-shadow: -1px 0 #f4cc00, 0 1px #f4cc00, 1px 0 #f4cc00, 0 -1px #f4cc00;
+  font-family:"Dodger";
+ 
+
+}
+.App-h1{
+  display: flex;
+  align-items: center;
+  justify-content:center; 
+ align-self: center;
+ margin-top: 10px;
+ font-weight:90;
+ font-size: 60px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;
+   ; 
+}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;
+   }
+   .button1 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 4px;
+    border: #f4cc00; 
+  }
+  .form1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+
+    align-self: center;
+    margin: 30% 0% 0% 0%;
+ 
+  }
+.space{
+  margin-bottom: 10px;
+}
+  .imgCorner{
+    background-image: url('https://i.ibb.co/9VSMCPX/back.png');
+    background-size: 100%;
+  }
+  #spaceParking{ 
+    display: flex;
+   
+    justify-content: center;
+    margin: 8% 0% 15% 15%;
+  }
+  
+
+ .no{
+   border: none;
+ }
+ .no1{
+  border-right: none;
+
+}
+.no2{
+  border-bottom: none;
+ 
+}
+.colorPark{
+  background-color: rgb(43, 44, 44,0.5);
+  font-weight: bold;
+  color: white;
+}
+
+.park{}
+.navRow{
+
+color:gray;
+text-shadow: none;
+}
+.navbar{
+  border-bottom:3px solid gray;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
